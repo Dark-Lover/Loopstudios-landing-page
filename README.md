@@ -1,2 +1,2 @@
 # Loopstudios-landing-page
-Loopstudios landing page width html Sass vanilla js &amp; Parcel bundler
+Loopstudios landing page with html Sass vanilla js &amp; Parcel bundler
