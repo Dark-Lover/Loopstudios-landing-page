@@ -1,5 +1,6 @@
 import mobileImg from "../assets/mobile/*.jpg";
 import desktopImg from "../assets/desktop/*.jpg";
+
 // Assets images urls
 const rawImages = [
   "image-deep-earth",
@@ -24,10 +25,20 @@ const changeImages = function () {
   if (window.innerWidth >= 800) {
     for (let i = 0; i < galArray.length; i++) {
       galArray[i].src = desktopImg[rawImages[i]];
+      // galArray[i].src = require(`./../assets/desktop/${rawImages[i]}.jpg`);
+      // galArray[i].src = new URL(
+      //   `assets/desktop/${rawImages[i]}.jpg`,
+      //   import.meta.url
+      // );
     }
   } else {
     for (let i = 0; i < galArray.length; i++) {
       galArray[i].src = mobileImg[rawImages[i]];
+      // galArray[i].src = require(`./../assets/mobile/${rawImages[i]}.jpg`);
+      // galArray[i].src = new URL(
+      //   `assets/mobile/${rawImages[i]}.jpg`,
+      //   import.meta.url
+      // );
     }
   }
 };

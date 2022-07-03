@@ -16,7 +16,7 @@
 .prettierignore
 
 # Avoid parcel dist folder,cache,node modules Upload!
-.cache
+.parcel-cache
 dist
 node_modules
 images
