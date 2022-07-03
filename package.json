@@ -2,7 +2,6 @@
   "name": "16_loopstudios-landing-page-main",
   "version": "1.0.0",
   "description": "Loopstudios landing page coding challenge",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel index.html --open",
     "prod": "parcel build index.html"
